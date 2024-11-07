@@ -1,0 +1,105 @@
+/* Page background color */
+body{
+    background-color: #202124;
+    overflow: hidden;
+}
+
+/* Set buttons on right */
+header{
+    display: flex; 
+    justify-content: end;
+}
+
+/* Create parent elemeto center divs */
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+}
+
+/* Create a grid of elements with 1 column a 3 rows */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* Class for items in grid */
+.item{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* Style for header button */
+a{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: white;
+}
+
+/* Style for search button */
+.searchbttn{
+    background-color: #303134;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Style for input field */
+input[type="text"]{
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    border: none;
+    background-color: #5f6368;
+
+}
+
+/* Set logo font */
+h1{
+    font-size: 80px;
+    color: white;
+}
+
+/* Font for "images" */
+h2{
+    white-space: nowrap;
+    font-size: 25px;
+    color: #4487f7;
+}
+
+/* Font for "Advanced Search" */
+h3{
+    white-space: nowrap;
+    font-size: 25px;
+    color: #f28b82;
+    padding-top: 35px;
+}
+
+/* Font for anvanced search options */
+h4{
+    font-size: 20px;
+    color: #969ba1;
+}
+
+/* Table padding */
+tr, td{
+    padding: 10px;
+}
